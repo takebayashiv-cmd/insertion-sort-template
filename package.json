@@ -1,16 +1,14 @@
 {
-  "name": "javascript",
-  "version": "1.0.0",
-  "description": "The JavaScript template",
-  "main": "./src/index.html",
+  "name": "vite-template-my-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "parcel": "^2.0.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.2.0"
-  },
-  "keywords": ["css", "javascript"]
+    "vite": "^7.1.7"
+  }
 }
